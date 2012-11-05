@@ -35,7 +35,7 @@ function checkMail() {
     }
 
     if (reminders > 0) {
-      titles[0].innerHTML += ' ' + reminders + ' reminders';
+      titles[0].innerHTML += ' &bull; ' + reminders + ' reminders';
     }
 
   }
