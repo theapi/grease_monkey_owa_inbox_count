@@ -9,14 +9,14 @@
 
 
 function checkMail() {
-  var countSuffixSingular = ' unread email'; 
-  var countSuffixPlural = ' unread emails'; 
+  var countSuffixSingular = ' email'; 
+  var countSuffixPlural = ' emails'; 
 
   // Inbox unread count
-  var spnCV = document.getElementById('spnCV');
+  var spnCV = document.getElementById('_ariaId_33.ucount');
   var count = '0';
   if (spnCV) {
-    count = document.getElementById('spnCV').innerHTML; 
+    count = document.getElementById('_ariaId_33.ucount').innerHTML; 
   }
 
   // Reminders
