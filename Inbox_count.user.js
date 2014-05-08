@@ -13,10 +13,10 @@ function checkMail() {
   var countSuffixPlural = ' emails'; 
 
   // Inbox unread count
-  var spnCV = document.getElementById('_ariaId_33.ucount');
+  var spnCV = document.getElementById('_ariaId_35.ucount');
   var count = '0';
   if (spnCV) {
-    count = document.getElementById('_ariaId_33.ucount').innerHTML; 
+    count = document.getElementById('_ariaId_35.ucount').innerHTML; 
   }
 
   // Reminders
